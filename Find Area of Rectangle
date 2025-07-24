@@ -1,0 +1,27 @@
+Problem statement
+Take the length(L) and breadth(B) of the rectangle as input and find its area.
+
+Note:
+Length and breadth must be an integer value and the area will always be in the range of integers.
+
+CODE 
+
+import java.util.Scanner;
+class Solution {
+	
+	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+        
+        // Taking input
+        int L = scanner.nextInt(); // Length
+        int B = scanner.nextInt(); // Breadth
+
+        // Calculating area
+        int area = L * B;
+
+        // Printing the result
+        System.out.println(area);
+        
+        scanner.close();
+    }
+}
