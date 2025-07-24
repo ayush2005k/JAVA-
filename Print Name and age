@@ -1,0 +1,44 @@
+Problem statement
+Create a class named Person with a string variable 'name' and an integer variable 'age,' such that these variables are not accessible outside the class and implement a way to initialize the variables and print the variables.
+
+Functions: 1.setValue- that sets the variables value. 2.getValue- that prints the variables value.
+
+CODE
+
+import java.util.* ;
+import java.io.*; 
+class Person {
+    
+    // Complete the class
+    private String name;
+    private int age;
+
+
+    public void getValue(){
+        System.out.println("The name of the person is " + name +" and the age is "+ age +".");
+    }
+
+
+    public void setValue(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+
+class Solution {
+    
+    public static void main(String args[]) {
+        
+        // Write your code here
+        Scanner in = new Scanner(System.in);
+        String name = in.next();
+        int age = in.nextInt();
+
+
+        Person obj = new Person();
+        obj.setValue(name, age);
+        obj.getValue();
+    }
+}
+        
