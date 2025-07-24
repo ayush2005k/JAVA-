@@ -1,0 +1,25 @@
+Problem statement
+Take the principal amount, rate of interest, and the time period as input and calculate the Simple Interest.
+
+Note: Return answer as Floor integer value.
+
+CODE
+
+import java.util.* ;
+import java.io.*; 
+class Solution {
+	
+	public static void main(String args[]) {
+		
+		Scanner sc = new Scanner(System.in);
+
+		int principal = sc.nextInt();
+		float rate = sc.nextFloat();
+		int time = sc.nextInt();
+
+		int simpleIntrest = (int) (principal*rate*time)/100;
+
+		System.out.println(simpleIntrest);
+		
+	}
+}
