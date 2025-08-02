@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class TemperatureConverter { // Class name changed to TemperatureConverter
+public class TemperatureConverter { 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,4 +29,5 @@ public class TemperatureConverter { // Class name changed to TemperatureConverte
             currentFahrenheit += W;
         }
     }
+
 }
