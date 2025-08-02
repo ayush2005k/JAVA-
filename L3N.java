@@ -6,11 +6,11 @@ public class L3N {
         Scanner scanner = new Scanner(System.in);
 
         int a = scanner.nextInt();
-        System.out.println("Value of a is: " + a); // Added line to print value of a
+        System.out.println("Value of a is: " + a); /
         int b = scanner.nextInt();
-        System.out.println("Value of b is: " + b); // Added line to print value of b
+        System.out.println("Value of b is: " + b); 
         int c = scanner.nextInt();
-        System.out.println("Value of c is: " + c); // Added line to print value of c
+        System.out.println("Value of c is: " + c); 
 
         int maxAB = Math.max(a, b);
 
@@ -21,3 +21,4 @@ public class L3N {
         scanner.close();
     }
 }
+
